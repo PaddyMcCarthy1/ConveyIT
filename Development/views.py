@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def development_list(request):
+    return render(request, 'development_list.html', {})
